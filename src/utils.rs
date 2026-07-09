@@ -123,7 +123,7 @@ pub fn debug_info() -> String {
         .collect::<Vec<String>>()
         .join(",\n");
 
-    let mut debug_string = format!("Library Details:\n\n{}", &*DEBUG_STR);
+    let mut debug_string = format!("Library Details:\n\n{}", *DEBUG_STR);
 
     if device_provider.camera(0).is_some() {
         debug_string.push_str("\n\nCameras:\n\n");
