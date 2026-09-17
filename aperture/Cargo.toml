@@ -20,4 +20,4 @@ gst-pbutils = { workspace = true }
 gst-video = { workspace = true }
 gtk = { workspace = true }
 log = { workspace = true }
-rqrr = { version = "0.10", default-features = false }
+rqrr = { version = "0.11", default-features = false }
